@@ -161,6 +161,7 @@ ul{
     text-transform: capitalize;
     border-bottom: 2px solid var(--bg-black-50);
     border-top: 2px solid var(--bg-black-50);
+    padding-left: 30px;
 }
 .aside .logo a{
     color: var(--text-black-900);
@@ -169,6 +170,7 @@ ul{
     font-size: 30px;
     letter-spacing: 2px;
     position: relative;
+    right: 10px;
 }
 .aside .logo a span{
     font-family:'Verdana';
@@ -288,7 +290,7 @@ h3.my-profession{
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right: 20px;
-    bottom: -40px;
+    bottom: -20px;
 }
 .home-img::before{
     content:'';
@@ -297,8 +299,8 @@ h3.my-profession{
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: -20px;
-    top: 40px;
+    left: 20px;
+    top: -30px;
 }
 .home .home-img img{
     margin: auto;
@@ -692,4 +694,7 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
     }
+}
+#logoImage{
+    width: 200px;
 }

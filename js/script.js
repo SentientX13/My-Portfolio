@@ -1,6 +1,6 @@
 
 var typed = new Typed(".typing",{
-    strings:["Full Stack Developer", "Game Creator", "Storyteller"],
+    strings:["Full Stack Developer", "Game Creator", "Storyteller", "3D Animator", "Lifelong Learner"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
@@ -82,3 +82,32 @@ const nav = document.querySelector(".nav"),
                         allSection[i].classList.toggle("open");
                     }
                 }
+document.addEventListener("DOMContentLoaded", function() {
+    // Show the home section by default
+    const homeSection = document.querySelector("#home");
+    homeSection.classList.add("active");
+    
+    // Update the navigation to mark the home section as active
+    const homeNav = document.querySelector("a[href='#home']");
+    homeNav.classList.add("active");
+    
+    // Hide the other sections
+    const allSections = document.querySelectorAll(".section");
+    allSections.forEach(section => {
+        if (section !== homeSection) {
+            section.classList.remove("active");
+        }
+    });
+    const darkModeEnabled = true; 
+    toggleDarkMode(darkModeEnabled);
+});
+
+function toggleDarkMode(enabled) {
+    const body = document.body;
+
+    if (enabled) {
+        body.classList.add("dark");
+    } else {
+        body.classList.remove("dark");
+    }
+}

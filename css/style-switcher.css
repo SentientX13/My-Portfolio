@@ -57,13 +57,13 @@
     border-radius: 50%;
 }
 .style-switcher .colour-1{
-    background: rgb(71, 24, 131);
+    background:#3ee6e9 ;
 }
 .style-switcher .colour-2{
     background: #fa5b0f;
 }
 .style-switcher .colour-3{
-    background: #37b182;
+    background: rgb(71, 24, 131);
 }
 .style-switcher .colour-4{
     background: #1854b4;

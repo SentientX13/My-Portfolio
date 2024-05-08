@@ -11,6 +11,7 @@ window.addEventListener("scroll", () => {
 })
 
 const alternateStyles = document.querySelectorAll(".alternate-style");
+
 function setActiveStyle(colour){
     alternateStyles.forEach((style) => {
         if(colour === style.getAttribute("title")){
